@@ -35,7 +35,7 @@ newTab.close();
 newWindow.close();
 })
 
-test.only('event listener', async({page}) =>{
+test('event listener', async({page}) =>{
 
     page.on('load', ()=> {
 

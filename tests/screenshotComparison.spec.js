@@ -100,7 +100,7 @@ test('screenshot comparison with multiple masks', async({page})=>{
 })
 
 //exmaple with specific element screenshot
-test.only('specific element screenshot', async({page})=>{
+test('specific element screenshot', async({page})=>{
     
     await page.goto('https://demo.playwright.dev/todomvc/');
 
