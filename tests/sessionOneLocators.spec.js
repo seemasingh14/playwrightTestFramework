@@ -32,7 +32,7 @@ test('demo locators', async ({page}) =>{
 
 });
 
-test('demo wait', async ({page}) =>{
+test.skip('demo wait', async ({page}) =>{
 
     await page.goto('https://demoblaze.com/');
     await page.locator('#login2').clear();

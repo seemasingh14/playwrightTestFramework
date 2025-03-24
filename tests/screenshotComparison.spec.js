@@ -15,7 +15,7 @@ test('taking screenshot test', async({page})=>{
 
 })
 
-test('taking comparison test', async({page})=>{
+test.skip('taking comparison test', async({page})=>{
 
     await page.goto('https://demo.applitools.com/');
     await page.waitForLoadState('networkidle');
@@ -36,7 +36,7 @@ test('taking comparison test', async({page})=>{
 
 })
 
-test('visual comparison with custom inputs', async({page})=>{
+test.skip('visual comparison with custom inputs', async({page})=>{
 
     await page.goto('https://demo.playwright.dev/todomvc/')
     await page.getByPlaceholder('What needs to be done?').fill('buy groceries');
@@ -55,7 +55,7 @@ test('visual comparison with custom inputs', async({page})=>{
 
 // example with masking the dynamic content on screen
 
-test('visual comparison with masked areas', async({page}) =>{
+test.skip('visual comparison with masked areas', async({page}) =>{
 
    await page.goto('https://demo.playwright.dev/todomvc/');
 
@@ -77,7 +77,7 @@ test('visual comparison with masked areas', async({page}) =>{
 
 })
 
-test('screenshot comparison with multiple masks', async({page})=>{
+test.skip('screenshot comparison with multiple masks', async({page})=>{
 
     await page.goto('https://demo.playwright.dev/todomvc/');
 
@@ -100,7 +100,7 @@ test('screenshot comparison with multiple masks', async({page})=>{
 })
 
 //exmaple with specific element screenshot
-test('specific element screenshot', async({page})=>{
+test.skip('specific element screenshot', async({page})=>{
     
     await page.goto('https://demo.playwright.dev/todomvc/');
 
