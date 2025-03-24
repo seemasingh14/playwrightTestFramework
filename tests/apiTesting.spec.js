@@ -31,7 +31,7 @@ test('API Testing 1', async({browser})=>{
 
 });
 
-test.only('API Automation -2 ', async({browser})=>{
+test('API Automation -2 ', async({browser})=>{
 
     //logging into the application using API calls
     const apiContext = await request.newContext();
